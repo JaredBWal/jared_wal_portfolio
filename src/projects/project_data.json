@@ -4,7 +4,9 @@
         {
             "title":"ColonySim.io",
             "tags": ["javaScript"],
-            "img": "./images/ColonySim_img.png"
+            "img": "./images/ColonySim_img.png",
+            "description": "Colonysim",
+            "video": "./videos/ColonySim_video.mp4"
         },
         {
             "title":"Hand-Tracking Mouse",

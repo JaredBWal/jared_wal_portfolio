@@ -3,6 +3,10 @@
 
 export default function Project(props){
     {console.log(props.project.img)}
+
+
+
+
     return (
         <div className='w-30 m-2 '>
         <div></div>
