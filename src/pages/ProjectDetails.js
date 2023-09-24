@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 import projects_json from '../projects/project_data.json';
 import VideoModal from "../components/VideoModal";
 import VideoCard from "../components/VideoCard";
+import ImageCard from "../components/ImageCard";
 
 
 export default function ProjectDetails(){
@@ -43,6 +44,16 @@ export default function ProjectDetails(){
                         )
                     })
                     }
+
+                    {pageProject.imgs.map( (img) => {
+                        return(
+                            <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2 rounded-md">
+                                <ImageCard img={img[0]} description={img[1]}/>
+                            </div>
+                        )
+                    })
+                    }
+
                 </div>
                 </>
              :
