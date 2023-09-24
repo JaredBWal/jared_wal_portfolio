@@ -2,7 +2,7 @@
 
 
 export default function Project(props){
-    {console.log(props.project.img)}
+    {console.log(props.project.imgs)}
 
 
 
@@ -16,12 +16,10 @@ export default function Project(props){
         
         {/* {console.log(tournament.)} */}
         {
-        
-
-                props.project.img ? 
-                    <img
-                        
-                        src={props.project.img}
+                props.project.imgs ? 
+                    <img       
+                        // gets the img url from the first img in the list
+                        src={props.project.imgs[0][0]}
                         className="object-contain object-fill h-36 w-96 object-center "
                     />
                 :
