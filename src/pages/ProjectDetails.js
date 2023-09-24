@@ -35,31 +35,32 @@ export default function ProjectDetails(){
 
                 {/* <VideoCard video={videos[0][0]} description={videos[0][1]}/> */}
                 <div className="flex flex-wrap justify-center">
-                    {console.log(videos[0])}
-
                     {pageProject.videos.map( (video) => {
-                       {console.log(video)}
-                     
                         return(
-
-                            <VideoCard video={video[0]} description={video[1]}/>
-                            
+                            <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2 rounded-md">
+                                <VideoCard video={video[0]} description={video[1]}/>
+                            </div>
                         )
-                        
                     })
                     }
-
-
                 </div>
-                
-
-        
                 </>
              :
                 <h1>No Video</h1>
             }
 
-        
+            {/* <div class="flex flex-wrap justify-center bg-gray-200">
+                <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+                    <VideoCard video={videos[0][0]} description={videos[0][1]}/>
+                </div>
+                <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+                <VideoCard video={videos[1][0]} description={videos[1][1]}/>
+                </div>
+                <div class="flex-1 text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+                    Significantly larger amount of contentSignificantly larger amount of contentSignificantly larger amount of contentSignificantly larger amount of content
+                </div>
+            </div> */}
+
             </>
             :
             <h1>Not loaded</h1>
