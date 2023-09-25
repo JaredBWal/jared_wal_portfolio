@@ -22,10 +22,8 @@
             "description": "A cool project"
         }
 
-]
-
-
-
+    ],
+    "tags": ["Python", "JavaScript", "Api's" ]
 
 
 }

@@ -14,7 +14,7 @@ export default function VideoModal(props){
             <video className="grayscale brightness-50 object-contain w-full h-full" onClick={toggleModal}>
                 <source src={props.video} type="video/mp4" />
             </video>
-            <img src = "/images/play-button.svg" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 object-contain h-24 cursor-pointer " onClick={toggleModal} alt="play-button"/>
+            <img src = "/images/play-button.svg" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 object-contain h-24 cursor-pointer opacity-75" onClick={toggleModal} alt="play-button"/>
         </div>
        
         {modal &&( 	

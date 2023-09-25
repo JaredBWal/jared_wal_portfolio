@@ -2,7 +2,7 @@ import ImageModal from "./ImageModal";
 
 // passing in img = "img_url"  and  description = "img_description"
 export default function ImageCard(props){
-    console.log("props!#!")
+    console.log(props)
     return (
         <div className='flex-1 m-2 '>
             <div></div>
@@ -10,10 +10,13 @@ export default function ImageCard(props){
                 
                 <div className="">
                     {
-                    props.video ? 
+                    props.img ? 
+                     <>
+                        {console.log(props.img)}
                         <ImageModal img={props.img}/>
+                        </>
                     :
-                        <h1>No Video</h1>
+                        <h1>No Image</h1>
                     }
                 </div>
                 <div className="p-2 text-white">
