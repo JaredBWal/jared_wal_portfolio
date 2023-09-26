@@ -52,8 +52,10 @@ export default function Projects(){
     return(
         <div className="">
 
-            <TagDropdown getSelectedTags={getSelectedTags}/>
-            
+            <div className="mt-5 mx-10">
+                <TagDropdown getSelectedTags={getSelectedTags}/>
+            </div>
+
             {shownProjects ?
             (<>
 

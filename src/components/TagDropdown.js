@@ -42,6 +42,25 @@ export default function TagDropdown(props){
                     onSelect={handleSelect}
                     options={options} 
                     showCheckbox
+
+                    placeholder="Filter by Tags"
+                    style={{
+                        chips: {
+                        background: 'blue'
+                        },
+                        multiselectContainer: {
+                        color: 'black'
+                        },
+                        searchBox: {
+                        border: "2px solid"
+                        
+                        },
+                        inputField: { // To change input field position or margin
+                            margin: "5px",
+                            color: "black"
+                        }
+                    
+                    }}
                     />
                 </>)
 

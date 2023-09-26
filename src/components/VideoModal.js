@@ -20,7 +20,7 @@ export default function VideoModal(props){
         {modal &&( 	
             <>
             <div onClick={toggleModal} className="overlay z-10 fixed top-0 left-0 w-[100%] h-[100%] bg-black bg-opacity-70"></div>
-            <div className="the_modal fixed w-[50em] h-[30em] z-20 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <div className="the_modal fixed w-[80%] h-[100%] z-20 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <div className="absolute bg-slate-200 bg-opacity-70 flex flex-col">
                     <div className="flex-grow">
                         <video className="" controls="controls" autoPlay="{true}">

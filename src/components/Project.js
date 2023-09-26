@@ -37,8 +37,8 @@ export default function Project(props){
                 </a>
             </h1>
 
-            <div className="">
-                {props.project.tags}
+            <div className="border ">
+                {props.project.tags.join(", ")}
 
             </div>
 
