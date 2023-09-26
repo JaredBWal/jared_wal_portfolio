@@ -42,7 +42,7 @@ export default function Project(props){
 
             </div>
 
-            <div className="">
+            <div className="my-1">
                 {props.project.description}
 
             </div>
