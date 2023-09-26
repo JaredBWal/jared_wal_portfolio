@@ -56,7 +56,7 @@ export default function Projects(){
             
             {shownProjects ?
             (<>
-                <div class="flex flex-wrap justify-center bg-blue-400">
+                <div class="flex flex-wrap justify-center">
                 { 
                     shownProjects.map( (project) => {                
                         return(<Project key={project.title} project={project}/>)
@@ -68,7 +68,7 @@ export default function Projects(){
             projects ? 
                 // console.log("Showing projects")
                 (<>
-                    <div class="flex flex-wrap justify-center bg-green-400">
+                    <div class="flex flex-wrap justify-center">
                     {
                         projects.map( (project) => { 
                             return(<Project key={project.title} project={project}/>)

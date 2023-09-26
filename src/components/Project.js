@@ -36,10 +36,13 @@ export default function Project(props){
                 {props.project.title}
             </a>
             </h1>
-
-            <div className='flex flex-row justify-between text mt-2 h-[66px]'> 
-                <p className=" line-clamp-4		">{props.description}</p>
+            <div className="mt-2">
+                <h2>{props.project.tags}</h2>
             </div>
+
+            {/* <div className='flex flex-row justify-between text mt-2 h-[66px]'> 
+                <p className=" line-clamp-4		">{props.description}</p>
+            </div> */}
         </div>
     </div>
 
