@@ -10,7 +10,7 @@
         },
         {
             "title":"Hand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking Mouse",
-            "tags": ["Python"],
+            "tags": ["Python", "JavaScript"],
             "imgs": [["/images/ColonySim_img.png","ColonySim.io Project Image"]],
             "description": "A cool project A cool projectA cool projec ctA cool projectA cool project",
             "videos": [["/videos/ColonySim_video.mp4", "Video showing basicVideo showing basic ColonySim.io FeaturesVideo showing basic ColonySim.io FeaturesVideo showing basic ColonySim.io Features ColonySim.io Features"], ["/videos/test-vid-3.mov", "Video showing basic ColonySim.io Features"] ]
