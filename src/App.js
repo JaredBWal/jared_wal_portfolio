@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import ProjectDetails from './pages/ProjectDetails';
+import Research from './pages/Research'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
             <Route path='Projects' element={<Projects />}></Route>
             <Route path='About' element={<About />}></Route>
             <Route path='Projects/:title' element={<ProjectDetails />}></Route>
-
+            <Route path='Research' element={<Research />}></Route>
           </Routes>
         </Header>
     </BrowserRouter>

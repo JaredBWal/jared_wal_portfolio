@@ -8,7 +8,9 @@ export default function Header(props){
 
     const navigation = [
         { name: 'Projects', href: '/projects' },
+        { name: 'Research', href: '/research'},
         { name: 'About', href: '/about' }
+  
 
         // { name: 'user', href: '/userPage' },
         //   { name: 'Definition', href: '/definition'},
@@ -39,7 +41,9 @@ export default function Header(props){
                     </div>
                     
                     <div className="text-center py-2 text-white font-bold text-2xl flex-grow">
-                        Jared Wal
+                    <a href={'/projects'} class=" rounded-md p-2 hover:bg-gray-700 ">
+                      Jared Wal
+                    </a>
                     </div>
                     
                     <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">

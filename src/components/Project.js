@@ -36,6 +36,7 @@ export default function Project(props){
                 {props.project.title}
                 </a>
             </h1>
+
             <div className="">
                 {props.project.tags}
 
@@ -45,7 +46,6 @@ export default function Project(props){
                 {props.project.description}
 
             </div>
-
 
 
             {/* <div className='flex flex-row justify-between text mt-2 h-[66px]'> 
