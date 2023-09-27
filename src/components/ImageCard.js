@@ -20,7 +20,7 @@ export default function ImageCard(props){
                     }
                 </div>
                 <div className="p-2 text-white">
-                    <h4 className=" text mt-2  w-full ">
+                    <h4 className=" text w-full ">
                             {props.description}
                     </h4>
                 </div>

@@ -19,7 +19,7 @@ export default function Project(props){
                 props.project.imgs ? 
                     <img       
                         // gets the img url from the first img in the list
-                        src={props.project.imgs[0][0]}
+                        src={props.project.main_display_img}
                         className="object-contain object-fill h-36 w-96 object-center "
                     />
                 :
@@ -43,7 +43,7 @@ export default function Project(props){
             </div>
 
             <div className="my-1">
-                {props.project.description}
+                {props.project.main_display_description}
 
             </div>
 

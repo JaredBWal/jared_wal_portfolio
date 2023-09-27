@@ -52,8 +52,8 @@ export default function TagDropdown(props){
                         color: 'black'
                         },
                         searchBox: {
-                        border: "2px solid"
-                        
+                        border: "2px solid",
+                        background:"white"
                         },
                         inputField: { // To change input field position or margin
                             margin: "5px",

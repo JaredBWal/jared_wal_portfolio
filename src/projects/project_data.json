@@ -4,26 +4,57 @@
         {
             "title":"ColonySim.io",
             "tags": ["JavaScript"],
+            "main_display_img": "/images/ColonySim_img.png",
+            "main_display_description": "The main Description",
             "imgs": [["/images/ColonySim_img.png","ColonySim.io Project Image"]],
             "description": "Colonysim",
+            "description_bullets":[],
             "videos": [["/videos/ColonySim_video.mp4", "Video showing basic ColonySim.io Features"], ["/videos/ColonySim_video.mp4", "Video showing basic ColonySim.io Features"] ]
         },
         {
-            "title":"Hand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking MouseHand-Tracking Mouse",
-            "tags": ["Python", "JavaScript"],
-            "imgs": [["/images/ColonySim_img.png","ColonySim.io Project Image"]],
-            "description": "A cool project A cool projectA cool projec ctA cool projectA cool project",
-            "videos": [["/videos/ColonySim_video.mp4", "Video showing basicVideo showing basic ColonySim.io FeaturesVideo showing basic ColonySim.io FeaturesVideo showing basic ColonySim.io Features ColonySim.io Features"], ["/videos/test-vid-3.mov", "Video showing basic ColonySim.io Features"] ]
+            "title":"Air-Mouse",
+            "tags": ["Python", "OpenCV", "PyAutoGUI"],
+            "main_display_img": "/images/air-mouse-coverImg.png",
+            "main_display_description": "The main Description",
+            "imgs": [],
+            "description": " ",
+            "description_bullets":[],
+            "videos": [["/videos/air-mouse-video.mp4", "Video showing the mouse follow the finger and click"] ]
         },
         {
-            "title":"Hand-Tracking Mouse",
+            "title":"Tournaments.sh (VTHacks)",
+            "tags": ["React.js", "JavaScript", "Databases", "APIs"],
+            "main_display_img": "/images/tournaments_sh-main.jpg",
+            "main_display_description": "Tournaments.sh main Description",
+            "imgs": [["/images/tournaments_sh-main.jpg","Page displaying all active tournaments"],
+                     ["/images/tournaments_sh-detail-page.png","Page displaying the detail/registration page of a tournament"],
+                     ["/images/tournaments_sh-authorization-page.png","Showing osu required authorization "]   ],
+            "description": "This project was created for the Virginia Tech Hackathon (VTHacks 11). I worked closely with two of my fellow ACM club members to create a content management system that would allow users to create tournaments for the game ‘osu!’. Users also have the ability to sign into their osu accounts and register for active tournaments. The tournament hosts are able to create tournaments for specific groups of players in osu, such as only allowing users of a certain rank range to register for the tournament.",
+            "description_bullets_label": "My Contributions to Tournaments.sh:",
+            "description_bullets": ["Created the Front-end Application using React and Tailwinds", 
+                                    "Handled the fetching of data from MongoDb using React Hooks (useEffect and useState)",
+                                    "Handled the sending of post requests for newly created tournaments"],
+
+            "videos": [["/videos/tournaments_sh-register-video.mp4","Demostration of tournament registration"] ],
+            "links": [["https://github.com/alexp9982/VTHaxOsuWebsite", "Github"],
+                    ["https://devpost.com/software/tournament-sh","DevPost"]]
+        },
+        {
+            "title":"CNU Maps",
             "tags": ["Python"],
-            "imgs": [["data:image/jpeg;base64,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","ColonySim.io Project Image"]],
-            "description": "A cool project"
+            "main_display_img": "/images/cnu-maps.png",
+            "main_display_description": "Tournaments.sh main Description",
+            "imgs": [["/images/cnu-maps.png","Shows fastest route between two buidling on campus"],
+                    ["/images/cnu-maps-login-page.png","Shows how you select between two buildings, and how you can log into an account"]],
+            "links":[["https://play.google.com/store/search?q=cnu%20maps&c=apps&hl=en_US&gl=US","Google Play"]],
+            "description": "CNU Maps is a group (ACM Club) project. I worked with fellow club members to develop a cross-platform mobile application that can find the fastest path between any two buildings on our campus (Christopher Newport University). This project was developed with Python using the OpenStreetMap API and the Toga GUI toolkit. The reason for creating this application was because there was no Google pathing for our school at that time, and we wanted to make an app that could help new students and visitors get directions to campus buildings.",
+            "description_bullets_label": "My contributions to CNU Maps:",
+            "description_bullets": ["Developed the UI with the Toga toolkit, such as the 'Origin'/'Destination' selection dropdowns",
+                                    "Created all needed nodes with OpenStreetMap in order for the calculated pathing to be optimized (such as adding new paths and entrances)"]
         }
 
     ],
-    "tags": ["Python", "JavaScript", "Api's" ]
+    "tags": ["Python", "JavaScript", "APIs", "React.js", "Databases" ]
 
 
 }

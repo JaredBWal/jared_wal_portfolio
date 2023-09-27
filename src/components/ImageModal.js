@@ -11,7 +11,7 @@ export default function ImageModal(props){
     return(
         <>
         <div className="video-container relative w-full h-full">
-            <img src={props.img } className="grayscale brightness-50 object-contain w-full h-full" onClick={toggleModal}></img>
+            <img src={props.img } className=" brightness-[.60] object-contain w-full h-full" onClick={toggleModal}></img>
             <img src = "/images/expand.png" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 object-contain h-[50%] cursor-pointer opacity-75" onClick={toggleModal} alt="play-button"/>
         </div>
        

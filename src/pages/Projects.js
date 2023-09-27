@@ -36,8 +36,6 @@ export default function Projects(){
     // updates shownProjects when the the dropdown is changed
     function getSelectedTags(tags){
         console.log(tags)
-        // setSelectedTags(tags)
-        // TODO get all projects that should shown
         const tempShownProject = getShownProjects(tags)
         console.log(tempShownProject)
         if (tempShownProject.length == 0){
@@ -46,7 +44,6 @@ export default function Projects(){
         }else{
             setShownProjects(tempShownProject)
         }
-         // todo
     }
 
     return(
