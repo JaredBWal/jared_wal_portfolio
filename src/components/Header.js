@@ -8,8 +8,8 @@ export default function Header(props){
 
     const navigation = [
         { name: 'Projects', href: '/projects' },
-        { name: 'Research', href: '/research'},
-        { name: 'About', href: '/about' }
+        { name: 'Research', href: '/research'}
+        // ,{ name: 'About', href: '/about' }
   
 
         // { name: 'user', href: '/userPage' },

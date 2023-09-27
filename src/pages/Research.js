@@ -9,7 +9,7 @@ export default function Research(){
                 <img src={researchPoster}></img> 
             </div>
 
-                <h1 className="text-3xl mt-5">Experience as a Machine Learning Research Assistant:</h1>
+                {/* <h1 className="text-3xl mt-5">Experience as a Machine Learning Research Assistant:</h1> */}
             </div>
             
         </div>
