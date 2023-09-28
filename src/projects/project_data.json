@@ -5,7 +5,7 @@
             "title":"ColonySim.io",
             "tags": ["JavaScript"],
             "main_display_img": "/images/colony-sim-main-img.png",
-            "main_display_description": "The main Description",
+            "main_display_description": "A customizable cellular simulation with over 50,000 users",
             "links":[["https://colonysim.net/","ColonySim.io"]],
             "imgs": [["/images/colony-sim-flag-editor.png","Custom colony editor (flag, politics, and traits)"]],
             "description": "This project is a public sequel to my Java 'Cellular-Automata Simulation'. Since its release in 2022, the site has had millions of visits and continues to have over 50,000 users! This simulation allows users to watch colonies grow, fight, and partake in diplomatic relations. The user has the ability to create their own custom colonies or generate randomized colonies. The goal of this simulation project was to bring a community together that revolved around maps and data. I am very happy to see that this goal was reached and continues to grow. This community can be seen in the demo videos above.",
@@ -21,7 +21,7 @@
             "title":"Air-Mouse",
             "tags": ["Python", "OpenCV", "PyAutoGUI"],
             "main_display_img": "/images/air-mouse-coverImg.png",
-            "main_display_description": "The main Description",
+            "main_display_description": "A program that allows the use to control the mouse with their finger",
             "imgs": [["/images/air-mouse-img-2.png","Image showing the OpenCV detected hand and the two nodes (thumb and index finger) that determine the mouse movement and when the mouse clicks"]],
             "description": "This project is a simple conjunction of two popular python libraries, OpenCV and PyAutoGUI. When combined together you get a futuristic feeling application that allows you to move and click your mouse with just your index finger and thumb. Since creating this project was relatively simple, I find it very exiting to think of the numerous other projects you can create using this combinations of libraries.",
             "description_bullets_label": "How I made it:",
@@ -35,7 +35,7 @@
             "title":"Tournaments.sh (VTHacks)",
             "tags": ["React.js", "JavaScript", "Databases", "APIs"],
             "main_display_img": "/images/tournaments_sh-main.jpg",
-            "main_display_description": "Tournaments.sh main Description",
+            "main_display_description": "A hackathon project that allows users to create and register for 'osu!' tournaments",
             "imgs": [["/images/tournaments_sh-main.jpg","Page displaying all active tournaments"],
                      ["/images/tournaments_sh-detail-page.png","Page displaying the detail/registration page of a tournament"],
                      ["/images/tournaments_sh-authorization-page.png","Showing osu required authorization "]   ],
@@ -50,10 +50,10 @@
                     ["https://devpost.com/software/tournament-sh","DevPost"]]
         },
         {
-            "title":"History High or Low",
+            "title":"History 'Before or After' Website",
             "tags": ["JavaScript", "React.js", "Json"],
             "main_display_img": "/images/projects/aws-history-game-main-img.png",
-            "main_display_description": "The main Description",
+            "main_display_description": "A 'higher or lower' style history game",
             "imgs": [["/images/projects/aws-history-game-img.png","An example of a question"]],
             "description": "This project is a simple conjunction of two popular python libraries, OpenCV and PyAutoGUI. When combined together you get a futuristic feeling application that allows you to move and click your mouse with just your index finger and thumb. Since creating this project was relatively simple, I find it very exiting to think of the numerous other projects you can create using this combinations of libraries.",
             "description_bullets_label": "How I made it:",
@@ -67,7 +67,7 @@
             "title":"CNU Maps",
             "tags": ["Python"],
             "main_display_img": "/images/cnu-maps.png",
-            "main_display_description": "CNU Maps main Description",
+            "main_display_description": "A ACM club project that displays the fastest route between two buildings on my campus",
             "imgs": [["/images/cnu-maps.png","Shows fastest route between two buidling on campus"],
                     ["/images/cnu-maps-login-page.png","Shows how you select between two buildings and how you can log into an account"]],
             "links":[["https://play.google.com/store/search?q=cnu%20maps&c=apps&hl=en_US&gl=US","Google Play"]],
@@ -75,6 +75,19 @@
             "description_bullets_label": "My contributions to CNU Maps:",
             "description_bullets": ["Developed the UI with the Toga toolkit, such as the 'Origin'/'Destination' selection dropdowns",
                                     "Created all needed nodes with OpenStreetMap in order for the calculated pathing to be optimized (such as adding new paths and entrances)"]
+        },
+        {
+            "title":"Cellular-Automata Simulation",
+            "tags": ["Java"],
+            "main_display_img": "/images/projects/java-cellular-main-img.png",
+            "main_display_description": "A simple cellular-automata simulation that was my inspiration to develop 'ColonySim.io'",
+            "imgs": [["/images/projects/java-cellular-main-img.png","Showing a simulation on the world map"]],
+            "links":[["https://github.com/JaredBWal/Colony-Cellular-Automata","Github"]],
+            "description": "This cellular-automata-style simulation was the inspiration for 'ColonySim.io'. This Java version offers the user a simple simulation between colonies. All cells try and reproduce their borders and they will fight any other colony that occupies the new tile they want to reproduce to.",
+            "description_bullets_label": "How this Simulation was Made:",
+            "description_bullets": ["This project was made with Java and Java Swing for the UI", "Every tile is represented by a 1x1 pixel that is drawn wtih the Java 'graphics2D library"],
+            "videos": [["/videos/projects/java-cellular-demo.mp4", "Video showing gameplay from the history game!"] ]
+
         }
 
     ],
