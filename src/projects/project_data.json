@@ -3,9 +3,9 @@
         
         {
             "title":"ColonySim.io",
-            "tags": ["JavaScript"],
+            "tags": ["JavaScript", "HTML/CSS"],
             "main_display_img": "/images/colony-sim-main-img.png",
-            "main_display_description": "A customizable cellular simulation with over 50,000 users",
+            "main_display_description": "A customizable cellular simulation website with over 50,000 users",
             "links":[["https://colonysim.net/","ColonySim.io"]],
             "imgs": [["/images/colony-sim-flag-editor.png","Custom colony editor (flag, politics, and traits)"]],
             "description": "This project is a public sequel to my Java 'Cellular-Automata Simulation'. Since its release in 2022, the site has had millions of visits and continues to have over 50,000 users! This simulation allows users to watch colonies grow, fight, and partake in diplomatic relations. The user has the ability to create their own custom colonies or generate randomized colonies. The goal of this simulation project was to bring a community together that revolved around maps and data. I am very happy to see that this goal was reached and continues to grow. This community can be seen in the demo videos above.",
@@ -32,8 +32,25 @@
             "videos": [["/videos/air-mouse-video.mp4", "Video showing the mouse follow the finger and click the screen"] ]
         },
         {
+            "title":"MERN CRUD Finance Tracker",
+            "tags": ["React JS", "APIs", "Node.js", "Databases", "MongoDB"],
+            "main_display_img": "/images/projects/MERN-CRUD-img.png",
+            "main_display_description": "A React JS app that uses MongoDB and Express to allow the user to smoothly track their finances",
+            "imgs": [],
+            "links":[["https://github.com/JaredBWal/Finance-Tracker","Github"]],
+            "description": "This is a simple finance-tracker that lets users calculate the annual cost of the products they buy. It is very intresting to see how high one's annual cost will rise by adding small recurring purchases (like streaming services).",
+            "description_bullets_label": "App Features:",
+            "description_bullets": ["This app was created using the MERN (MongoDB, Express, React, Node) stack",
+                                    "The app has all CRUD operations, such as viewing, adding, updating, and removing financial products",
+                                    "This app efficiently uses react hooks to smoothly re-render components when they change"],
+            "videos": [["/videos/projects/MERN-CRUD-main-video.mp4", "Demo of Finance Tracker with all CRUD operations, and shows what the database looks like afterwards"],
+                    ["/videos/projects/MERN-CRUD-edit-video.mp4","Shows more edit and remove operations"]
+        ]
+
+        },
+        {
             "title":"Tournaments.sh (VTHacks)",
-            "tags": ["React.js", "JavaScript", "Databases", "APIs"],
+            "tags": ["React JS", "JavaScript", "Databases", "APIs", "HTML/CSS"],
             "main_display_img": "/images/tournaments_sh-main.jpg",
             "main_display_description": "A hackathon project that allows users to create and register for 'osu!' tournaments",
             "imgs": [["/images/tournaments_sh-main.jpg","Page displaying all active tournaments"],
@@ -51,7 +68,7 @@
         },
         {
             "title":"History 'Before or After' Website",
-            "tags": ["JavaScript", "React.js", "Json"],
+            "tags": ["JavaScript", "React JS", "Json"],
             "main_display_img": "/images/projects/aws-history-game-main-img.png",
             "main_display_description": "A 'higher or lower' style history game",
             "imgs": [["/images/projects/aws-history-game-img.png","An example of a question"]],
@@ -81,17 +98,19 @@
             "tags": ["Java"],
             "main_display_img": "/images/projects/java-cellular-main-img.png",
             "main_display_description": "A simple cellular-automata simulation that was my inspiration to develop 'ColonySim.io'",
-            "imgs": [["/images/projects/java-cellular-main-img.png","Showing a simulation on the world map"]],
+            "imgs": [["/images/projects/java-cellular-main-img.png","Showing another simulation on the world map"]],
             "links":[["https://github.com/JaredBWal/Colony-Cellular-Automata","Github"]],
-            "description": "This cellular-automata-style simulation was the inspiration for 'ColonySim.io'. This Java version offers the user a simple simulation between colonies. All cells try and reproduce their borders and they will fight any other colony that occupies the new tile they want to reproduce to.",
+            "description": "This cellular-automata-style simulation was the inspiration for 'ColonySim.io'. This Java version offers the user a simple simulation between colonies. All cells try and reproduce to other cells around them and will fight any other colony that occupies the new tile they want to reproduce to. The green cells you see on the frontlines of each colony (and also scattered across the map) are cells that have died from either old age, or from being killed by another cell.",
             "description_bullets_label": "How this Simulation was Made:",
-            "description_bullets": ["This project was made with Java and Java Swing for the UI", "Every tile is represented by a 1x1 pixel that is drawn wtih the Java 'graphics2D library"],
-            "videos": [["/videos/projects/java-cellular-demo.mp4", "Video showing gameplay from the history game!"] ]
+            "description_bullets": ["This project was made with Java and Java Swing for the UI",
+             "Every tile is represented by a 1x1 pixel that is drawn wtih the Java 'graphics2D library",
+              "Every tile is one individual cell that has a birth rate, age, and strength"],
+            "videos": [["/videos/projects/java-cellular-demo.mp4", "Video showing a basic world simulation"] ]
 
         }
 
     ],
-    "tags": ["Python", "JavaScript", "APIs", "React.js", "Databases" ]
+    "tags": ["Python", "JavaScript", "React JS", "Node.js","APIs","Databases", "HTML/CSS" ]
 
 
 }
